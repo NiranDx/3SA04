@@ -1,5 +1,6 @@
 import React from 'react';
 import Weather from './components/Weather'
+import { StyleSheet, Text, View, ImageBackground } from 'react-native';
 
 export default class App extends React.Component {
   render() {
