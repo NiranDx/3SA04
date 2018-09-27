@@ -10,6 +10,7 @@ export default class Forecast extends React.Component {
                 <Text style={{ textAlign: 'center', fontSize: 32, color: 'white' }}>{"\n"}{this.props.temp}
                     <Text style={{ textAlign: 'center', fontSize: 15, color: 'white' }}> °C</Text>
                 </Text>
+                <Text style={{textAlign: 'center', color: 'skyblue',fontSize: 12 }}>BY: Niran Sasooloh{"\n"} ID: 5935512021</Text>
 
             </View>
         );
